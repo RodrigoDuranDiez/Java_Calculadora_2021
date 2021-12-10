@@ -26,7 +26,7 @@ public class VentanaCalculadora extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        display = new javax.swing.JLabel();
+        pantalla = new javax.swing.JLabel();
         boton08 = new javax.swing.JButton();
         boton04 = new javax.swing.JButton();
         boton05 = new javax.swing.JButton();
@@ -40,13 +40,13 @@ public class VentanaCalculadora extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        display.setBackground(new java.awt.Color(0, 0, 0));
-        display.setFont(new java.awt.Font("Consolas", 0, 48)); // NOI18N
-        display.setForeground(new java.awt.Color(0, 204, 0));
-        display.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
-        display.setText("0");
-        display.setToolTipText("");
-        display.setOpaque(true);
+        pantalla.setBackground(new java.awt.Color(0, 0, 0));
+        pantalla.setFont(new java.awt.Font("Consolas", 0, 48)); // NOI18N
+        pantalla.setForeground(new java.awt.Color(0, 204, 0));
+        pantalla.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        pantalla.setText("0");
+        pantalla.setToolTipText("");
+        pantalla.setOpaque(true);
 
         boton08.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
         boton08.setText("8");
@@ -133,104 +133,160 @@ public class VentanaCalculadora extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(pantalla, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(display, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
+                                .addComponent(boton07, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(boton08, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(layout.createSequentialGroup()
                                 .addComponent(boton04, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addComponent(boton05, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(boton01, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(boton00, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(boton02, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(boton09, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(boton06, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(boton03, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addComponent(boton07, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(boton08, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(boton09, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(display, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(29, 29, 29)
+                .addComponent(pantalla, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(boton07, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(boton08, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(boton09, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(19, 19, 19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(boton04, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(boton06, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(boton05, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(boton06, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(15, 15, 15)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(boton02, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(boton01, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(boton03, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(boton04, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(boton01, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(boton02, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(boton03, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(boton00, javax.swing.GroupLayout.PREFERRED_SIZE, 64, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(122, Short.MAX_VALUE))
+                .addContainerGap(153, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
     private void boton08ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton08ActionPerformed
-display.setText("8");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("8");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "8");
+        }
     }//GEN-LAST:event_boton08ActionPerformed
 
     private void boton04ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton04ActionPerformed
-       display.setText("4");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("4");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "4");
+        }
     }//GEN-LAST:event_boton04ActionPerformed
 
     private void boton05ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton05ActionPerformed
-    display.setText("5");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("5");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "5");
+        }
     }//GEN-LAST:event_boton05ActionPerformed
 
     private void boton09ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton09ActionPerformed
-       display.setText("9");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("9");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "9");
+        }
     }//GEN-LAST:event_boton09ActionPerformed
 
     private void boton06ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton06ActionPerformed
-       display.setText("6");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("6");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "6");
+        }
     }//GEN-LAST:event_boton06ActionPerformed
 
     private void boton01ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton01ActionPerformed
-        display.setText("1");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("1");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "1");
+        }
     }//GEN-LAST:event_boton01ActionPerformed
 
     private void boton02ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton02ActionPerformed
-        display.setText("2");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("2");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "2");
+        }
     }//GEN-LAST:event_boton02ActionPerformed
 
     private void boton03ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton03ActionPerformed
-       display.setText("3");
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("3");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "3");
+        }
     }//GEN-LAST:event_boton03ActionPerformed
 
     private void boton07ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton07ActionPerformed
-        display.setText("7");
+
+        String auxiliar = pantalla.getText();
+        if (auxiliar.equals("0")) {
+            pantalla.setText("7");
+        } else {
+
+            pantalla.setText(pantalla.getText() + "7");
+        }
     }//GEN-LAST:event_boton07ActionPerformed
 
     private void boton00ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_boton00ActionPerformed
-        display.setText("0");
+       String auxiliar = pantalla.getText();
+    if (auxiliar.equals ("0")){
+        pantalla.setText("0");
+    }else{
+        
+        pantalla.setText(pantalla.getText() + "0");
+    }
     }//GEN-LAST:event_boton00ActionPerformed
 
     /**
@@ -279,6 +335,6 @@ display.setText("8");
     private javax.swing.JButton boton07;
     private javax.swing.JButton boton08;
     private javax.swing.JButton boton09;
-    private javax.swing.JLabel display;
+    private javax.swing.JLabel pantalla;
     // End of variables declaration//GEN-END:variables
 }

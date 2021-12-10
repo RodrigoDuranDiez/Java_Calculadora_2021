@@ -24,22 +24,24 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="display" pref="380" max="32767" attributes="0"/>
-                  </Group>
+                  <Component id="pantalla" alignment="0" pref="380" max="32767" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="boton07" min="-2" pref="64" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="boton08" min="-2" pref="64" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
                               <Component id="boton04" min="-2" pref="64" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="boton05" min="-2" pref="64" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="boton01" min="-2" pref="64" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Component id="boton00" min="-2" pref="64" max="-2" attributes="0"/>
                                   <Component id="boton02" min="-2" pref="64" max="-2" attributes="0"/>
@@ -48,6 +50,7 @@
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="boton09" min="-2" pref="64" max="-2" attributes="0"/>
                           <Component id="boton06" min="-2" pref="64" max="-2" attributes="0"/>
                           <Component id="boton03" min="-2" pref="64" max="-2" attributes="0"/>
                       </Group>
@@ -56,49 +59,40 @@
               </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
-              <Component id="boton07" min="-2" pref="64" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Component id="boton08" min="-2" pref="64" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="boton09" min="-2" pref="64" max="-2" attributes="0"/>
-              <EmptySpace max="32767" attributes="0"/>
-          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="display" min="-2" pref="68" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+              <Component id="pantalla" min="-2" pref="68" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="boton07" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
                   <Component id="boton08" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
                   <Component id="boton09" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="boton04" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
-                  <Component id="boton05" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
                   <Component id="boton06" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="boton02" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
-                  <Component id="boton01" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
-                  <Component id="boton03" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="boton05" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="boton04" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="boton01" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="boton02" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
+                  <Component id="boton03" alignment="3" min="-2" pref="64" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
               <Component id="boton00" min="-2" pref="64" max="-2" attributes="0"/>
-              <EmptySpace pref="122" max="32767" attributes="0"/>
+              <EmptySpace pref="153" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="display">
+    <Component class="javax.swing.JLabel" name="pantalla">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="0" green="0" red="0" type="rgb"/>
